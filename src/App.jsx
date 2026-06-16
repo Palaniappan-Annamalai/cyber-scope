@@ -10,7 +10,7 @@ import ScrollToTop from "./components/ScrollToTop";
 function App() {
   return (
     <QueryClientProvider client={queryClientInstance}>
-      <BrowserRouter>
+      <BrowserRouter basename="/cyber-scope">
         <ScrollToTop />
         <Layout>
           <Routes>
