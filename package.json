@@ -2,7 +2,7 @@
   "name": "cyberscope-app",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://github.com/Palaniappan-Annamalai/cyber-scope",
+  "homepage": "https://palaniappan-annamalai.github.io/cyber-scope",
   "type": "module",
   "scripts": {
     "dev": "vite",
