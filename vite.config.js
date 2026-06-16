@@ -5,7 +5,7 @@ import { defineConfig } from 'vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/cyberscope/',
+  base: '/cyber-scope/',
   logLevel: 'error', // Suppress warnings, only show errors
   plugins: [
     base44({
