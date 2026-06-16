@@ -1,0 +1,52 @@
+.book-table {
+  border: 1px solid black;
+  border-collapse: collapse;
+
+  th,
+  td {
+    border: 1px solid black;
+    padding: 8px;
+  }
+}
+
+.row-wrapper {
+  display: flex;
+  flex-wrap: wrap; /* Allows items to drop to next line if needed */
+  margin: 0 -15px; /* Optional: adds negative margin to counteract column padding */
+}
+
+.column-6 {
+  flex: 0 0 50%; /* Replicates col-6: doesn't grow, doesn't shrink, stays 50% */
+  max-width: 50%;
+  padding: 0 15px; /* Adds space (gutters) between columns */
+  box-sizing: border-box; /* Ensures padding doesn't increase width */
+}
+.my-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+}
+.login-button {
+  background-color: #1b9b0f;
+  color: white;
+  padding: 10px;
+}
+.register-button, .logout-button, .delete-button{
+  background-color: hsl(347, 77%, 39%);
+  color: white;
+  padding: 10px;
+}
+link {
+  color: #09b34a;
+  text-decoration: underline;
+  /* Adds space between text and underline */
+  text-underline-offset: 4px; 
+  /* Makes the line subtle */
+  text-decoration-thickness: 1px; 
+  transition: all 0.3s ease;
+}
+
+link:hover {
+  color: #ca6b11;
+  text-decoration-thickness: 2px;
+}
